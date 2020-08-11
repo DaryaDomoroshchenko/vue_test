@@ -1,0 +1,7 @@
+.comments__close {
+  width: 11px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}

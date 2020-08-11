@@ -1,0 +1,51 @@
+@import url(./__close/comments__close.css);
+
+.comments {
+  background-color: #9ea3a5;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .2);
+  width: 286px;
+  max-height: 230px;
+  padding: 15px;
+  left: 10px;
+  top: 40px;
+  position: absolute;
+  z-index: 2;
+  overflow-y: auto;
+  cursor: default;
+}
+
+::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecedee;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #b9b9b9;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #969494;
+}
+
+::-webkit-resizer{
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px
+}
+
+::-webkit-scrollbar{
+  width: 4px;
+}

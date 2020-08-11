@@ -1,0 +1,19 @@
+@import url(./__section/root__section.css);
+@import url(./__visible/root__visible.css);
+
+.root {
+  background-color: #eaeeef;
+  min-height: 100vh;
+  font-family: 'Inter';
+  padding-top: 90px;
+  padding-bottom: 194px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1024px) {
+  .root {
+    padding-top: 70px;
+    padding-bottom: 140px;
+  }
+}

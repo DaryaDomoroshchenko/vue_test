@@ -1,0 +1,12 @@
+@import url(./__author/comment__author.css);
+@import url(./__title/comment__title.css);
+@import url(./__text/comment__text.css);
+
+.comment {
+  font-family: 'Inter';
+  margin-bottom: 15px;
+}
+
+.comment:last-of-type {
+  margin-bottom: 0;
+}

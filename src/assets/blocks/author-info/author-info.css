@@ -1,0 +1,19 @@
+@import url(./__author/author-info__author.css);
+@import url(./__login/author-info__login.css);
+@import url(./__other-info/author-info__other-info.css);
+
+.author-info {
+  font-family: 'Inter';
+  background-color: #b6bcbf;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .2);
+  min-width: 200px;
+  max-width: 256px;
+  min-height: 140px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  z-index: 3;
+}
